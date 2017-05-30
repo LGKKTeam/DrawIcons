@@ -17,21 +17,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LGKKTeam/DrawIcons.git", :tag => "#{s.version}" }
 
   s.source_files  = "DrawIcons/**/*.{h,m,swift}"
-  s.exclude_files = "DrawIcons/**/Exclude"
-  s.public_header_files = "DrawIcons/DrawIcons/*.h"
-  s.resources = "DrawIcons/Resources/**/*.{png,jpeg,jpg,storyboard,xib}"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # s.requires_arc = true
-
+  s.exclude_files = "DrawIcons/**/DrawIconsTests/*.{swift,m,h}"
+  #"DrawIcons/**/Products"
+  s.public_header_files = "DrawIcons/DrawIcons/*.{h}"
+  s.requires_arc = true
+  
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
