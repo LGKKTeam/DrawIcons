@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import DrawIcons
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let imgView = UIImageView(image: CoreDrawing.imageOfPlay)
+        imgView.contentMode = .center
+        view.addSubview(imgView)
+        
+        imgView.snp.makeConstraints { (maker) in
+            maker.centerX.equalToSuperview()
+            maker.centerY.equalToSuperview()
+        }
     }
 
     override func didReceiveMemoryWarning() {
