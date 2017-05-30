@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "minhndcs52" => "nguyenminhkhmt@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/LGKKTeam/DrawIcons.git", :tag => "#{s.version}" }
-
+  s.source       = { :git => "https://github.com/LGKKTeam/DrawIcons.git", :branch => "master", :tag => "#{s.version}" }
   s.source_files  = "DrawIcons/**/*.{h,m,swift}"
   s.exclude_files = "DrawIcons/**/DrawIconsTests/*.{swift,m,h}"
   #"DrawIcons/**/Products"
