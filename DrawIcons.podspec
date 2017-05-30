@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name         = "DrawIcons"
   s.version      = "1.0.0"
   s.summary      = "Some init icons by dynamic programmatically"
-  s.homepage     = "https://github.com/LGKKTeam/DrawIconsDrawIcons"
+  s.homepage     = "https://github.com/LGKKTeam/DrawIcons.git"
   s.license      = "MIT"
   s.author             = { "minhndcs52" => "nguyenminhkhmt@gmail.com" }
   s.platform     = :ios, "9.0"
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "DrawIcons/**/*.{h,m,swift}"
   s.exclude_files = "DrawIcons/**/Exclude"
-  s.public_header_files = "DrawIcons/*.h"
-  s.resources = "Resources/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.public_header_files = "DrawIcons/DrawIcons/*.h"
+  s.resources = "DrawIcons/Resources/**/*.{png,jpeg,jpg,storyboard,xib}"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
