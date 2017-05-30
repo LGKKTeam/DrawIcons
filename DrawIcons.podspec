@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "DrawIcons"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Some init icons by dynamic programmatically"
   s.homepage     = "https://github.com/LGKKTeam/DrawIcons.git"
   s.license      = "MIT"
